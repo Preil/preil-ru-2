@@ -1,17 +1,19 @@
 <template>
-  <v-app>
-
-  </v-app>
+    <v-app>
+        <v-content>
+            <router-view></router-view>
+        </v-content>
+    </v-app>
 </template>
 
 <script>
 
 
-export default {
-  data () {
-    return {
-      //
+    export default {
+        data() {
+            return {
+                //
+            }
+        }
     }
-  }
-}
 </script>
